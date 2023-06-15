@@ -1,0 +1,91 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    font-size: 50px;
+}
+
+
+#principal {
+    background-image: url('./imagenes/fondo-principla.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+}
+
+#header {
+    background-image: url("./imagenes/as_bestas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+#header-suscribete {
+    margin-top: 50%;
+}
+
+#header-suscribete-title {
+    background: linear-gradient(95deg, #d9141466 15%, #4444cd85 50%, #4444cdd5 90%);
+    border-radius: 30px;
+    font-size: 70px;
+}
+
+#header-suscribete-title h2 {
+
+    border-radius: 30px;
+    font-family: fantasy;
+    font-size: 70px;
+
+
+}
+
+#header-suscribete-description {
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 20px;
+    color: black;
+}
+
+#entrar{
+  width: 20%;
+}
+
+#peliculas {
+    width: 100vw;
+    height: 50vh;
+
+}
+
+#peliculas img {
+    width: 600px;
+    height: 800px;
+}
+
+.carousel {
+    margin: 0 auto;
+    width: 60%;
+}
+@media (max-width: 900px) {
+    .carousel{
+        width: 300px;
+    }
+  }
+  @media (max-height: 970px) {
+    .carousel{
+        width: 60%;
+    }
+    #header-suscribete {
+        margin-top: 20%;
+    }
+  }
+  

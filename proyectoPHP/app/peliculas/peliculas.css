@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#admin-body{
+    background-image: url("posters/fondo-admin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    
+}
+
+#usuarios-body{
+
+    height: 100vh;
+    background-image: url("./posters/fondo-usuarios.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position: fixed;
+} 
+
+tbody {
+    background-color: rgba(46, 77, 163, 0.648);
+}
+
+p {
+    color: white;
+    font-weight: bolder;
+}
+
+nav {
+    background-color: rgb(236, 177, 15);
+}
+
+h2 {
+    color: black;
+}
+#libreta {
+    margin-top: 1rem;
+    height: 55rem;
+    overflow: auto;
+}
